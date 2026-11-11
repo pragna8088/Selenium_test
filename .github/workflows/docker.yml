@@ -38,4 +38,4 @@ jobs:
           context: .
           file: ./dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME}}/maven-test:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME}}/selenium-test:latest
