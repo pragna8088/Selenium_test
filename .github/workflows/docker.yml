@@ -38,4 +38,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/maven-test:latest
+          tags: ${{ secrets.DOKCERHUB_USERNAME}}/maven-test:latest
